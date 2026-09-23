@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary / dump files
+SB-Design/audit_payload.json
+SB-Design/_manuscript_dump.txt
+SB-Design/_sb_dump.txt
+SB-Design/rendered_slides/*
+!SB-Design/rendered_slides/.gitkeep
+
+# Sensitive settings & credentials
+setting/lcdms_cookie.txt
+
+# Input & Output files (heavy binary PPTX/HWP and personal/course data)
+input/*
+!input/.gitkeep
+output/*
+!output/.gitkeep
+scratch/*
+!scratch/.gitkeep
+
+# Office temporary lock files
+~$*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
